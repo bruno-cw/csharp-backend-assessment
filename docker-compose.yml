@@ -1,0 +1,13 @@
+version: "3"
+services:
+  postgres:
+    container_name: 'taskmann_db'
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: taskmann
+    ports:
+      - '127.0.0.1:5432:5432'
+    volumes:
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql
