@@ -11,7 +11,7 @@ You are tasked to develop two features in a task board application:
             - A description has a maximum of 5000 characters.
         - The creation date must be automatically calculated
         - Another task can be selected from a list to be its parent task.
-            - A task cannot be a parent of its own child
+            - A task cannot be a parent of its own parent
             - A task cannot be a parent of itself
             - A task cannot have "grandchildren"
 
