@@ -33,6 +33,7 @@ applying clean code principles. Keep in mind acronyms such as SOLID, KISS, DRY a
 
 
 - Do not build a front-end
+- Do not build authentication (Feel free to use environment variables or constants to mock the logged user)
 - Include either the migration files or DDL you used to create the database
 - Please use dotnet framework 8.0
 - Feel free to use any library
